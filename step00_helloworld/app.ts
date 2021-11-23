@@ -2,10 +2,10 @@
 //https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
 
 class Startup {
-    // method must be of return type nubmer
-    public static main(): number {
+    // method must be of return type string
+    public static main(): string {
         console.log('Hello World');
-        return 0;
+        return 'Hello World';
     }
 }
 
